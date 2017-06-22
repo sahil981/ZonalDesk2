@@ -1,0 +1,174 @@
+{
+  "project_info": {
+    "project_number": "403400170126",
+    "firebase_url": "https://zonaldesk-3f90f.firebaseio.com",
+    "project_id": "zonaldesk-3f90f",
+    "storage_bucket": "zonaldesk-3f90f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403400170126:android:4a664fba4a30d115",
+        "android_client_info": {
+          "package_name": "biztime_zonal.firebasefb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403400170126-stbdbnq8fqo34fteok747e94o5eaac0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7jHUbQnqObuk7P78U85OFeVI-ogKDZ2I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403400170126:android:d4a4e186da2aee02",
+        "android_client_info": {
+          "package_name": "biztime_zonal.phoneotp1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403400170126-8gt4604lrmmuput0h9b528cg5crtb7h6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "biztime_zonal.phoneotp1",
+            "certificate_hash": "318a9268627279e16b04b2aeccd5ecb2f655d07e"
+          }
+        },
+        {
+          "client_id": "403400170126-stbdbnq8fqo34fteok747e94o5eaac0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7jHUbQnqObuk7P78U85OFeVI-ogKDZ2I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403400170126-stbdbnq8fqo34fteok747e94o5eaac0m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403400170126:android:8d16cc67fe5d9ffa",
+        "android_client_info": {
+          "package_name": "biztime_zonal.demolayouts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403400170126-h5tcirgsuskfns2qs2lshgehtglqs16v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "biztime_zonal.demolayouts",
+            "certificate_hash": "318a9268627279e16b04b2aeccd5ecb2f655d07e"
+          }
+        },
+        {
+          "client_id": "403400170126-stbdbnq8fqo34fteok747e94o5eaac0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7jHUbQnqObuk7P78U85OFeVI-ogKDZ2I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403400170126-stbdbnq8fqo34fteok747e94o5eaac0m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403400170126:android:d5868fa17982956f",
+        "android_client_info": {
+          "package_name": "iacademia.zonaldesk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403400170126-g0j0as1hpgrc9kkt9umaod7ahknp34tp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "iacademia.zonaldesk",
+            "certificate_hash": "318a9268627279e16b04b2aeccd5ecb2f655d07e"
+          }
+        },
+        {
+          "client_id": "403400170126-stbdbnq8fqo34fteok747e94o5eaac0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7jHUbQnqObuk7P78U85OFeVI-ogKDZ2I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403400170126-stbdbnq8fqo34fteok747e94o5eaac0m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

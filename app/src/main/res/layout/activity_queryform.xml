@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#625B3F"
+    tools:context="iacademia.zonaldesk.Queryform">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/heading"
+        android:layout_centerHorizontal="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:text="Enter"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+
+        />
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text=" Query"
+       android:textStyle="bold"
+       android:textColor="#0099ff"
+       android:textSize="30dp"
+       android:gravity="center"
+       android:layout_marginTop="20dp"
+
+       />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/heading">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="top"
+            android:background="#fff"
+            android:hint="Enter your query ......"
+           />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/submit"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:id="@+id/proceed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Not satisfied yet? Proceed to Chat ->"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#c8be9a"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>
