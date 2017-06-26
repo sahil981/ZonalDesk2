@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="iacademia.zonaldesk.RegisterActivity"
+    android:background="@drawable/registration_bg">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:text="Connecting to the Rural World"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/imageView"
+        android:paddingLeft="10dp"
+        tools:ignore="HardcodedText"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="-10dp"
+        app:srcCompat="@drawable/zdlogo"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/space1"/>
+
+            <LinearLayout
+                android:id="@+id/rel_lay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/space1"
+                android:background="@drawable/try1"
+                android:orientation="vertical">
+
+
+
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:hint="Enter your name"
+                    android:background="@drawable/input_background"
+                    android:padding="10dp"
+                    android:inputType="textPersonName"
+                    android:layout_marginTop="70dp"/>
+
+
+
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/input_background"
+                    android:padding="10dp"
+                    android:hint="Username"
+                    android:layout_marginTop="25dp"/>
+
+
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:inputType="textEmailAddress"
+                    android:hint="Your Email ID"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/input_background"
+                    android:padding="10dp"/>
+
+                <Button
+                    android:id="@+id/registration_submit"
+                    style="@android:style/Widget.Button"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/button_background"
+                    android:elevation="0dp"
+                    android:text="Submit"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
