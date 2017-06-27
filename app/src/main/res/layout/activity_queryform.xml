@@ -58,7 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:gravity="top"
-            android:background="@drawable/input_background"
+            android:background="#fff"
             android:hint="Enter your query ......"
            />
         <Button

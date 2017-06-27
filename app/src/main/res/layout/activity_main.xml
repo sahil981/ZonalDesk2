@@ -4,27 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#C0C0C0"
+    android:background="@drawable/registration_bg"
     tools:context="iacademia.zonaldesk.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/layout123">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            app:srcCompat="@drawable/zdlogo"/>
+    </RelativeLayout>
 
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#0099ff">
+        android:layout_below="@+id/layout123"
+        android:id="@+id/scrolllow">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
             android:orientation="vertical">
+
             <RelativeLayout
                 android:id="@+id/phoneNumberLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
+                android:layout_alignParentTop="false"
                 android:layout_centerHorizontal="true"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
-                android:background="#ffffff"
+                android:background="#C8BE9A"
                 android:visibility="visible">
 
 
@@ -35,11 +50,11 @@
                     android:layout_height="50dp"
                     android:layout_margin="10dp"
                     android:layout_marginTop="10dp"
+                    android:gravity="start"
                     android:paddingLeft="10dp"
                     android:paddingTop="15dp"
                     android:text="Please enter your phone number"
                     android:textAlignment="viewStart"
-                    android:gravity="start"
                     android:textSize="14sp" />
 
                 <View
@@ -54,11 +69,11 @@
                     android:id="@+id/textView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignStart="@+id/textView"
                     android:layout_alignLeft="@+id/textView"
+                    android:layout_alignStart="@+id/textView"
                     android:layout_below="@+id/textView"
-                    android:layout_marginStart="120dp"
                     android:layout_marginLeft="120dp"
+                    android:layout_marginStart="120dp"
                     android:layout_marginTop="21dp"
                     android:text="Phone Number"
                     android:textColor="#F39C12"
@@ -68,12 +83,12 @@
                     android:id="@+id/textView3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="70dp"
-                    android:layout_marginLeft="70dp"
-                    android:textSize="16dp"
                     android:layout_alignBaseline="@+id/field_phone_number"
                     android:layout_alignBottom="@+id/field_phone_number"
-                    android:text="+91 -" />
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginStart="70dp"
+                    android:text="+91 -"
+                    android:textSize="16dp" />
 
                 <EditText
                     android:id="@+id/field_phone_number"
@@ -100,8 +115,8 @@
                     android:id="@+id/text_start_verification"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:layout_alignParentStart="true"
                     android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
                     android:layout_below="@+id/view"
                     android:clickable="true"
                     android:contextClickable="true"
@@ -122,7 +137,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
-                android:background="#ffffff"
+                android:background="#C8BE9A"
                 android:visibility="visible">
 
 
@@ -154,10 +169,10 @@
                     android:layout_height="50dp"
                     android:layout_margin="10dp"
                     android:layout_marginTop="10dp"
+                    android:gravity="start"
                     android:paddingLeft="10dp"
                     android:paddingTop="15dp"
                     android:text="@string/verify_plz"
-                    android:gravity="start"
                     android:textAlignment="viewStart"
                     android:textSize="14sp" />
 

@@ -32,6 +32,7 @@ import java.net.URL;
 import java.util.List;
 import java.util.Locale;
 
+import iacademia.zonaldesk.Fragments.ContactUsFragment;
 import iacademia.zonaldesk.Fragments.NewRequestFragment;
 import iacademia.zonaldesk.Fragments.PendingReqFragment;
 import iacademia.zonaldesk.Fragments.ProfileFragment;
@@ -139,6 +140,8 @@ public class HomeActivity extends AppCompatActivity
             startActivity(i);
 
         } else if (id == R.id.contact_us) {
+            Intent i = new Intent(HomeActivity.this, ContactUsFragment.class);
+            startActivity(i);
 
         }
 

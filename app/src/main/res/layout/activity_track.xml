@@ -50,7 +50,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Enter Track id"
-        android:textColorHint="#fff"
+
+        android:background="@drawable/input_background"
+        android:padding="10dp"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"/>
         <Button

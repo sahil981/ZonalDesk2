@@ -16,21 +16,23 @@
         android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
         android:textColor="@color/colorPrimary"
         android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
         android:paddingLeft="10dp"
-        tools:ignore="HardcodedText"
-        android:layout_centerHorizontal="true"/>
+        tools:ignore="HardcodedText" />
 
     <ImageView
-        android:layout_width="330dp"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:paddingRight="10dp"
+        android:layout_centerHorizontal="true"
         android:paddingLeft="10dp"
         android:paddingBottom="-10dp"
         app:srcCompat="@drawable/zdlogo"
         android:layout_marginTop="50dp"
-        android:layout_centerHorizontal="true"
         android:id="@+id/imageView"
-        android:layout_alignParentTop="true" />
+        android:layout_alignParentTop="true"
+
+        />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -61,11 +63,11 @@
                     android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:hint="Enter your name"
+                    android:inputType="textPersonName"
+                    android:layout_marginTop="70dp"
                     android:background="@drawable/input_background"
                     android:padding="10dp"
-                    android:inputType="textPersonName"
-                    android:layout_marginTop="70dp"/>
+                    android:hint="Enter your name"/>
 
 
 
@@ -73,10 +75,11 @@
                     android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_marginTop="25dp"
                     android:background="@drawable/input_background"
                     android:padding="10dp"
-                    android:hint="Username"
-                    android:layout_marginTop="25dp"/>
+                    android:hint="Username"/>
+
 
 
                 <EditText
@@ -84,10 +87,10 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:inputType="textEmailAddress"
-                    android:hint="Your Email ID"
-                    android:layout_marginTop="25dp"
                     android:background="@drawable/input_background"
-                    android:padding="10dp"/>
+                    android:padding="10dp"
+                    android:layout_marginTop="25dp"
+                    android:hint="EmailID"/>
 
                 <Button
                     android:id="@+id/registration_submit"
@@ -95,7 +98,7 @@
                     android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginTop="25dp"
+                    android:layout_marginTop="30dp"
                     android:background="@drawable/button_background"
                     android:elevation="0dp"
                     android:text="Submit"
